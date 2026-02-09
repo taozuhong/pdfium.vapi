@@ -1,0 +1,11 @@
+prefix=/opt/pdfium
+bindir=${prefix}/bin
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: PDFium
+Description: PDFium is an open-source PDF rendering and manipulation library.
+URL: https://github.com/bblanchon/pdfium-binaries
+Version: 146.0.7665
+Libs: -L${libdir} -lpdfium
+Cflags: -I${includedir}
