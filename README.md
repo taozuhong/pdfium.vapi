@@ -10,7 +10,7 @@ pacman -S base-devel autotools git mingw-w64-ucrt-x86_64-gettext-tools mingw-w64
 - Download the pdfium library from [pdfium-binaries](https://github.com/bblanchon/pdfium-binaries)
 - Copy the pdfium.pc to the pkgconfig folder, maybe you need update the prefix with install folder
 
-## Generate link object file(dll.a) for GCC
+## Generate symbol link object file(dll.a) for GCC
 ```bash
 gendef pdfium.dll
 dlltool.exe -d pdfium.def -D pdfium.dll -l pdfium.dll.a
@@ -21,7 +21,7 @@ meson setup build
 meson compile -C build/
 ./build/pdfium.exe &
 
-## ScreenShot of Kangaroo database tool app
+## ScreenShots of Kangaroo database tool app
 [![Kangaroo database workspace](kangaroo-workspace.png)](https://www.datatable.online/)
 
 [![Kangaroo database tool app screenshot](kangaroo-pdf.png)](https://www.datatable.online/)
