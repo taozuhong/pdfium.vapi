@@ -1,5 +1,5 @@
 # Pdfium.vapi GTK demo app
-Pdfium vapi and example, the code is extracted from the project [Kangaroo Database Tool](https://github.com/dbkangaroo/kangaroo)
+Pdfium vapi and example GTK demo app to display PDF content with zoom in / zoom out / fit to page / fit to width / rotate features, the key code is extracted from the project [Kangaroo Database Tool](https://github.com/dbkangaroo/kangaroo)
 ![Pdfium GTK app screenshot](screenshot.png)
 
 ## Install MSYS2 dependencies
