@@ -1,6 +1,6 @@
 # Pdfium.vapi GTK demo app
 Pdfium vapi and example, the code is extracted from the project [Kangaroo Database Tool](https://github.com/dbkangaroo/kangaroo)
-[![Kangaroo database workspace](kangaroo-workspace.png)](https://www.datatable.online/)
+![Pdfium GTK app screenshot](screenshot.png)
 
 ## Install MSYS2 dependencies
 pacman -Syu
@@ -21,7 +21,7 @@ meson setup build
 meson compile -C build/
 ./build/pdfium.exe &
 
-## ScreenShot
-![Pdfium GTK app screenshot](screenshot.png)
+## ScreenShot of Kangaroo database tool app
+[![Kangaroo database workspace](kangaroo-workspace.png)](https://www.datatable.online/)
 
 [![Kangaroo database tool app screenshot](kangaroo-pdf.png)](https://www.datatable.online/)
